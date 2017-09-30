@@ -1,54 +1,103 @@
 /* CSS by PlytaX */
-@import url("font-awesome.min.css");
-    /* Header */
-		#header .logo {
-			background: #4eb980;
-			border-radius: 100%;
-			color: #ffffff;
-			cursor: default;
-			display: inline-block;
-			font-size: 2.25em;
-			height: 2.35em;
-			line-height: 2.35em;
-			margin: 0 0 0.75em 0;
-			text-align: center;
-			width: 2.35em;
-		}
-
-			#header .logo.fa-paper-plane-o:before {
-				left: -0.075em;
-				position: relative;
-			}
-
-/* Navigation bar*/
-
- ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #53434F;
+@import url("/assets/font-awesome.min.css");
+/* Header */
+body {
+	margin: 0;
+	background: #B1467F;    /* color nav bar #ff0066 */
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
 }
 
-li {
-    float: right;
+.container {
+	width: 80%;
+	margin: 0 auto;
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+header {
+  background: #B1467F;  /* background*/
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 10px 0px;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #FFFFFF ;      /* letters nav board */
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #4EB980;    /* letters nav board */
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444; 
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+
+
+
+/* Main Body */
+
+
+.wrap {
+    width: 100%;
+}
+
+.floatleft {
+    float:left; 
+    width: 20%;
     background-color: #4EB980;
+    height: 712px;
 }
 
-.active {
-    background-color: #4CAF50;
-    color: white;
+.floatright {
+float: right;
+    background-color: #FFFFFF;
+    height: 712px;
+    width: 80%;
 }
+
+
+
+
+
+
+
 
