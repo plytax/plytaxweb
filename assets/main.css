@@ -1,12 +1,14 @@
 /* CSS by PlytaX */
 @import url("/assets/font-awesome.min.css");
-/* Header */
+
 body {
 	margin: 0;
 	background: #000000;    /* color nav bar #ff0066 */
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;
 }
+
+/* Header */
 
 .container {
 	width: 80%;
@@ -18,7 +20,7 @@ header {
 }
 
 header::after {
-  content: '';
+  content: '';   /**/
   display: table;
   clear: both;
 }
@@ -45,6 +47,7 @@ logo a {
   text-decoration: none;
   font-size: 26px;
 }
+
 
 nav {
   float: right;
@@ -86,8 +89,6 @@ nav a::before {
 
   transition: all ease-in-out 250ms;
 }
-
-
 
 
 /* Main Body */
