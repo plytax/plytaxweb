@@ -3,7 +3,7 @@
 /* Header */
 body {
 	margin: 0;
-	background: #B1467F;    /* color nav bar #ff0066 */
+	background: #000000;    /* color nav bar #ff0066 */
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;
 }
@@ -14,7 +14,7 @@ body {
 }
 
 header {
-  background: #B1467F;  /* background*/
+  background: #000000;  /* background*/
 }
 
 header::after {
@@ -25,7 +25,9 @@ header::after {
 
 .logo {
   float: left;
-  padding: 10px 0;
+  margin: 0 auto;
+	color: #4EB980
+
 }
 
 nav {
@@ -58,10 +60,9 @@ nav a:hover {
 }
 
 nav a::before {
-  content: '';
   display: block;
   height: 5px;
-  background-color: #444; 
+  background-color: #444;
 
   position: absolute;
   top: 0;
@@ -76,12 +77,12 @@ nav a::before {
 /* Main Body */
 
 
-.wrap {
+.bodywrap {
     width: 100%;
 }
 
 .floatleft {
-    float:left; 
+    float:left;
     width: 20%;
     background-color: #4EB980;
     height: 712px;
@@ -95,9 +96,13 @@ float: right;
 }
 
 
+.floatmid {
+float: right;
+    background-color: #000000;
+    width: 0%;
+    height: 712px;
+    line-height: 256px;
+    text-align: center;
+}
 
-
-
-
-
-
+.bodyline {border-left:medium #CC0000 solid; height:300px;}
