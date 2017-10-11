@@ -1,0 +1,9 @@
+/* These are CSS media selector to make the website adaptive to different screen sizes*/
+/* CSS code goes between curly brackets */
+
+@media screen and (max-width:500px){}
+@media (min-width : 501px) and (max-width : 767px) {}
+@media (min-width: 768px) and (max-width: 1023px){}
+@media (min-width: 1024px) and (max-width: 1200px){}
+@media (min-width: 1201px) and (max-width: 1500px){}
+@media (min-width: 1501px) and (max-width: 2000px){}
